@@ -1,0 +1,6 @@
+RandomAccessFile file = new RandomAccessFile(f.getPath(),"rw");
+file.write(new String("Lorem impsum").getBytes());
+byte[] file_buffer = new byte[(int)file.length()];
+Log.i(log_tag,String.format("%s",file_buffer.length));
+file.close();
+client.send(file_buffer);

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">RemoteCommand</string>
+    <string name="default_port">5000</string>
+    <string name="default_address">localhost</string>
+    <string name="shared_pref_file">sharedprefs</string>
+
+    <string name="shared_pref_port_key">saved_port</string>
+    <string name="shared_pref_address_key">saved_address</string>
+</resources>
